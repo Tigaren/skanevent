@@ -41,7 +41,16 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.carousel-item img {
+  height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.carousel-control-prev-icon {
+  color: #000;
+}
 
 *,
 *::before,
