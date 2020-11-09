@@ -10115,6 +10115,14 @@ img::-moz-selection {
   width: max-content;
   padding: 20px;
 }
+.img-content-container{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+
+.img-content-container p,h5 {
+  color: rgba(0, 0, 0, 0.85);
+}
 
 #mainNav .navbar-brand {
   color: #fed136;
@@ -10479,11 +10487,6 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-}
-
-section#contact {
-}
 section#contact .section-heading {
   color: #fff;
 }
