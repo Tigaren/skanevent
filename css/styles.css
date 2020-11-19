@@ -100,6 +100,22 @@ p {
   margin-bottom: 1rem;
 }
 
+#prisliste {
+  background-color: rgba(42, 9, 107, 1);
+}
+
+#prisliste p,label,li {
+  color: white;
+}
+
+#prisliste {
+  max-width: 100vw;
+}
+
+#prisliste label {
+  padding-top: 20px;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
