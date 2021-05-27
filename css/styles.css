@@ -205,6 +205,9 @@ section .contact-container {
       bottom: 0px !important;
       width: 100% !important;
   }
+  .coming-soon {
+    margin: 20px auto 0px auto;
+  }
   }
 
 #prisliste p,label,li {
