@@ -149,6 +149,64 @@ section .contact-container {
     width: 100%;
 }
 
+  @media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+    h1 {
+      font-size: 30px !important;
+    }
+    h2 {
+      font-size: 20px !important;
+    }
+    .footer {
+      background-color: rgba(255, 255, 255, 0.541);
+      padding-left: 50px;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .contact-container {
+    height: 30vh;
+    width: 60vw;
+    margin: 0 auto 10px auto;
+    
+  }
+  .coming-soon {
+
+    width: 90vw;
+    margin: 50px auto 0px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .footer {
+    background-color: rgba(255, 255, 255, 0.541);
+    padding-left: 50px;
+      position: absolute;
+      bottom: 0px !important;
+      width: 100% !important;
+  }
+  
+  }
+  
+  @media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .contact-container {
+    height: 30vh;
+    width: 80vw;
+    margin: 0 auto 10px auto;
+    
+  }
+  .footer {
+    background-color: rgba(255, 255, 255, 0.541);
+    padding-left: 50px;
+      position: absolute !important;
+      bottom: 0px !important;
+      width: 100% !important;
+  }
+  }
+
 #prisliste p,label,li {
   color: Black;
 }
@@ -9793,10 +9851,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
-  .text-xl-left {
-    text-align: left !important;
-  }
+
 
   .text-xl-right {
     text-align: right !important;
@@ -9805,7 +9860,7 @@ button.bg-dark:focus {
   .text-xl-center {
     text-align: center !important;
   }
-}
+
 .text-lowercase {
   text-transform: lowercase !important;
 }
